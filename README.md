@@ -1,3 +1,3 @@
-# WordCamp Kyoto 2017 Teaser Additional CSS
+# WordCamp Kyoto 2017 Teaser
 
 Theme: Twenty Seventeen
