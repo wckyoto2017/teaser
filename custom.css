@@ -1,0 +1,50 @@
+/*
+ここに独自の CSS を追加することができます。
+
+詳しくは上のヘルプアイコンをクリックしてください。
+*/
+.home.has-header-image .custom-header-media img {
+	bottom: 0;
+	display: none;
+	height: auto;
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
+	min-height: 0;
+	min-width: 0;
+	-o-object-fit: contain;
+	object-fit: contain;
+	padding-bottom: 54px;
+	right: 0;
+	width: auto;
+}
+
+.has-header-image.twentyseventeen-front-page .custom-header,
+.has-header-video.twentyseventeen-front-page .custom-header,
+.has-header-image.home.blog .custom-header,
+.has-header-video.home.blog .custom-header {
+	height: calc(100vh - 54px);
+}
+
+.home.has-header-image .custom-header-media {
+	background: #222 url('/files/2017/02/wck2017-teaser-1080x1440.png') no-repeat center center;
+	background-size: contain;
+}
+
+@media (min-width: 768px) {
+	.has-header-image.twentyseventeen-front-page .custom-header,
+	.has-header-video.twentyseventeen-front-page .custom-header,
+	.has-header-image.home.blog .custom-header,
+	.has-header-video.home.blog .custom-header {
+		height: 100vh;
+	}
+
+	.home.has-header-image .custom-header-media {
+		background: #222;
+	}
+
+	.home.has-header-image .custom-header-media img {
+		display: block;
+		padding-bottom: 72px;
+	}
+}
